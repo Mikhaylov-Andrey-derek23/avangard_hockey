@@ -1,0 +1,84 @@
+$greyText: #585858;
+$greyBorder: #707070;
+$lightgreyborder: #e2e2e2; 
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.wrapper{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+header{
+    width: 80%;
+    margin: 0 10%;
+    .LinkCompany{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 19px 0;
+        border-bottom:  1px solid $lightgreyborder;
+        .LinkCompanySity{
+            display: flex;
+            align-items: center;
+            a{
+                display: block;
+                font-family: PF Centro Sans Pro;
+                color: $greyText;                
+                font-size: 11px;
+                line-height: 20px;
+                height: 20px;
+                text-decoration: none;
+            }
+            .avangard{
+                display: block;
+                padding: 15px 77px;
+                background-image: url('/img/avangard.png');
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+            .container{
+                display: flex;
+                justify-content: space-between;
+                margin-right: 8%;
+                align-items: flex-start;
+                min-width: 25%;
+                span{
+                    margin-right: 10px;
+                }
+            }
+            .hawk{
+               min-width: 20%;
+               margin-left: 10%;
+              
+            }
+        }
+        .LinkCompanyProfile{
+            a{
+                font-family: PT Sans;
+                font-size: 15px;
+                line-height: 100%;
+                color: $greyText;
+                text-decoration: none;
+                padding: 12px 0px;
+                text-align: center;
+                margin-left: 6%;
+            }
+            span{
+                margin-right: 10px;
+            }
+            
+            .buyTicket{
+                border: 1px solid $greyBorder;
+                padding: 12px 19px;
+                line-height: 100%;
+            }
+
+        }
+
+    }
+}

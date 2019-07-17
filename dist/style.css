@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto; }
+
+header {
+  width: 80%;
+  margin: 0 10%; }
+  header .LinkCompany {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 19px 0;
+    border-bottom: 1px solid #e2e2e2; }
+    header .LinkCompany .LinkCompanySity {
+      display: flex;
+      align-items: center; }
+      header .LinkCompany .LinkCompanySity a {
+        display: block;
+        font-family: PF Centro Sans Pro;
+        color: #585858;
+        font-size: 11px;
+        line-height: 20px;
+        height: 20px;
+        text-decoration: none; }
+      header .LinkCompany .LinkCompanySity .avangard {
+        display: block;
+        padding: 15px 77px;
+        background-image: url("/img/avangard.png");
+        background-position: center;
+        background-repeat: no-repeat; }
+      header .LinkCompany .LinkCompanySity .container {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 8%;
+        align-items: flex-start;
+        min-width: 25%; }
+        header .LinkCompany .LinkCompanySity .container span {
+          margin-right: 10px; }
+      header .LinkCompany .LinkCompanySity .hawk {
+        min-width: 20%;
+        margin-left: 10%; }
+    header .LinkCompany .LinkCompanyProfile a {
+      font-family: PT Sans;
+      font-size: 15px;
+      line-height: 100%;
+      color: #585858;
+      text-decoration: none;
+      padding: 12px 0px;
+      text-align: center;
+      margin-left: 6%; }
+    header .LinkCompany .LinkCompanyProfile span {
+      margin-right: 10px; }
+    header .LinkCompany .LinkCompanyProfile .buyTicket {
+      border: 1px solid #707070;
+      padding: 12px 19px;
+      line-height: 100%; }
